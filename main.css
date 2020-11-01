@@ -1,0 +1,60 @@
+
+/* ==== GRID LAYOUT ==== */
+
+*{
+  box-sizing: border-box;
+}
+.container{
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 80px 80px 1fr 100px;
+  grid-template-columns: 1fr 730px 350px 1fr;
+  grid-column-gap: 30px;
+  background-color: #FF0F0066; /* Delete after editing */
+}
+.header-bg{
+  grid-row: 1;
+  grid-column: 1 / 5;
+  background-color: #6200EA;
+}
+header{
+  grid-row: 1;
+  grid-column: 2 / 4;
+  background-color: #FFEF0066; /* Delete after editing */
+}
+.nav-bg{
+  grid-row: 2;
+  grid-column: 1 / 5;
+  background-color: #FFFFFF;
+}
+nav{
+  grid-row: 2;
+  grid-column: 2 / 4;
+  background-color: #3FFF0066; /* Delete after editing */
+}
+.content-bg{
+  grid-row: 3;
+  grid-column: 1 / 5;
+  background-color: #F4F3F5;
+}
+article{
+  grid-row: 3;
+  grid-column: 2 / 3;
+  background-color: #E500FF66; /* Delete after editing */
+}
+aside{
+  grid-row: 3;
+  grid-column: 3 / 4;
+  background-color: #6796A866; /* Delete after editing */
+}
+.footer-bg{
+  grid-row: 4;
+  grid-column: 1 / 5;
+  background-color: #211138;
+}
+footer{
+  grid-row: 4;
+  grid-column: 2 / 4;
+  background-color: #EE115E66; /* Delete after editing */
+}
